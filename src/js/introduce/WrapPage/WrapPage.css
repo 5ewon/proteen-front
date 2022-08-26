@@ -1,0 +1,27 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10%; /* 스크롤바의 길이 */
+  background: #46BEFF; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(213deg, 86%, 57%, 0.286); /*스크롤바 뒷 배경 색상*/
+}
+
+.containers {
+  height: 100vh;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.containers:nth-child(2) {
+  background-color: #F4F3F3;
+}
+
+/*# sourceMappingURL=WrapPage.css.map */

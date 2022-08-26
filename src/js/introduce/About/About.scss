@@ -1,0 +1,23 @@
+/* IntroduceWeb */
+
+#what-is-proteen{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    top: 35%;
+    font-size: 40px;
+    font-weight: 600;
+    user-select: none;
+}
+
+#introduce-web-paragraph{
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 740px;
+    font-size: 25px;
+    top: 50%;
+    user-select: none;
+}

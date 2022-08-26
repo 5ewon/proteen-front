@@ -1,0 +1,10 @@
+#introduce-footer {
+  height: 40px;
+  position: sticky;
+  top: 0;
+  background-color: #E8E6E6;
+  user-select: none;
+  z-index: 3;
+}
+
+/*# sourceMappingURL=Footer.css.map */

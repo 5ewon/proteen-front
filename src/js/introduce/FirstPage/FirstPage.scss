@@ -1,0 +1,102 @@
+@import '../../../Color.scss';
+
+#login-wrap {
+    width: min-content;
+    left: 15%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #introduce-first-page-logo {
+        margin-bottom: 10%;
+        width: 110%;
+    }
+
+    #login-signup-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            width: 280px;
+            height: 40px;
+            margin: 5px 0;
+            font-size: 16px;
+            border-radius: 35px;
+            border: 1px solid $main-blue;
+            color: $main-blue;
+            cursor: pointer;
+        }
+
+        input:first-child {
+            background-color: $main-blue;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+#scroll-sign {
+    bottom: 50px;
+    font-size: 18px;
+    transition: 0.2s ease-out;
+    color: #46beff;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+
+    #mouse-body {
+        box-sizing: border-box;
+        width: 40px;
+        height: 70px;
+        border: 3px solid $main-blue;
+        border-radius: 40px;
+        margin: 11px auto 0;
+
+        #scroller {
+            background-color: $main-blue;
+            box-sizing: border-box;
+            border: 1.5px solid $main-blue;
+            border-radius: 3px;
+            width: 1.5px;
+            height: 10px;
+            margin: 8px auto 0;
+            transform-origin: top;
+            animation-name: scroll;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                opacity: 0;
+            }
+
+            0.01% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.scroll-remove {
+    opacity: 0;
+}
+
+#background-img {
+    position: fixed;
+    width: 38%;
+    left: 60%;
+    top:50%;
+    transform: translateY(-50%);
+}

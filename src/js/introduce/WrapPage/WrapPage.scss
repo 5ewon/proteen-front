@@ -1,0 +1,25 @@
+@import '../../../Color.scss';
+
+::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 10%; /* 스크롤바의 길이 */
+    background: $main-blue; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsla(213, 86%, 57%, 0.286);  /*스크롤바 뒷 배경 색상*/
+}
+
+.containers{
+    height: 100vh;
+    background-color: white;
+    position:sticky;
+    top:0;
+}
+.containers:nth-child(2){
+    background-color: $main-light-gray;
+}
