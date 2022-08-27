@@ -28,10 +28,10 @@ function App() {
           </>
         }
         <Route path='main/*' element={<Main isLogined={isLogined} />} />
-        {/* <Route 
-          path='*' 
-          element={() => {return(<Navigate to="main"/>)}} 
-        /> */}
+        <Route 
+          path='/' 
+          element={<Navigate to="main"/>} 
+        />
       </Routes>
     </Router>
   );
