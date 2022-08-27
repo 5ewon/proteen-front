@@ -1,6 +1,6 @@
 @import '../../../Color.scss';
 
-#login-wrap {
+#introduce-login-wrap {
     width: min-content;
     left: 15%;
     position: fixed;
@@ -15,7 +15,7 @@
         width: 110%;
     }
 
-    #login-signup-buttons {
+    #introduce-login-signup-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,7 +89,7 @@
     }
 }
 
-.scroll-remove {
+.ScrollRemove {
     opacity: 0;
 }
 
