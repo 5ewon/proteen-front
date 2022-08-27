@@ -18,7 +18,7 @@
   height: 200px;
   user-select: none;
 }
-#functions-container .function {
+#functions-container .Function {
   height: inherit;
   width: 180px;
   background-color: #f2f2f2;
@@ -26,20 +26,20 @@
   margin: 0 40px;
   overflow: hidden;
 }
-#functions-container .function .wrap-function {
+#functions-container .Function .WrapFunction {
   height: inherit;
   transition: 0.4s;
 }
-#functions-container .function .wrap-function div {
+#functions-container .Function .WrapFunction div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
 }
-#functions-container .function .wrap-function div:first-child {
+#functions-container .Function .WrapFunction div:first-child {
   font-size: 1.5rem;
 }
-#functions-container .function .wrap-function:hover {
+#functions-container .Function .WrapFunction:hover {
   transform: translateY(-100%);
 }
 

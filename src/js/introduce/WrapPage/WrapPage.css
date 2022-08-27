@@ -13,14 +13,14 @@
   background: hsla(213deg, 86%, 57%, 0.286); /*스크롤바 뒷 배경 색상*/
 }
 
-.containers {
+.IntroduceContainers {
   height: 100vh;
   background-color: white;
   position: sticky;
   top: 0;
 }
 
-.containers:nth-child(2) {
+.IntroduceContainers:nth-child(2) {
   background-color: #F4F3F3;
 }
 

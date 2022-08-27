@@ -2,7 +2,7 @@ import './About.css';
 
 function About() {
     return(
-        <div className="containers">
+        <div className="IntroduceContainers">
             <h3 id="what-is-proteen">프로틴이란</h3>
             <div id="introduce-web-paragraph">
                 불필요한 칼로리나 지질을 억제하고 몸에 흡수되기 쉬운 형태인 프로틴처럼

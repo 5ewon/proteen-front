@@ -19,7 +19,7 @@
     height: 200px;
     user-select: none;
 
-    .function {
+    .Function {
         height: inherit;
         width: 180px;
         background-color: #f2f2f2;
@@ -27,7 +27,7 @@
         margin: 0 40px;
         overflow: hidden;
 
-        .wrap-function {
+        .WrapFunction {
             height: inherit;
             transition: 0.4s;
 
@@ -42,7 +42,7 @@
             }
         }
 
-        .wrap-function:hover {
+        .WrapFunction:hover {
             transform: translateY(-100%);
         }
     }
