@@ -44,4 +44,13 @@ input[type=button], input[type=submit] {
   cursor: pointer;
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=Reset.css.map */
