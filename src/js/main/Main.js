@@ -1,13 +1,13 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Header from '../header/Header';
-import Chatbot from '../chatbot/Chatbot';
+import Header from '../Header/Header';
+import Chatbot from '../Chatbot/Chatbot';
 
-import Home from '../home/Home';
-import Profile from '../profile/Profile';
-import Planner from '../planner/Planner';
-import TwoWeeksStudy from '../twoweeksstudy/TwoWeeksStudy';
-import Community from '../community/Community';
-import NotFound from '../notfound/NotFound';
+import Home from '../Home/Home';
+import Profile from '../Profile/Profile';
+import Planner from '../Planner/Planner';
+import TwoWeeksStudy from '../TwoWeeksStudy/TwoWeeksStudy';
+import Community from '../Community/Community';
+import NotFound from '../NotFound/NotFound';
 
 function Main({isLogined}) {
     return (

@@ -5,10 +5,10 @@ import {
   Navigate
 } from 'react-router-dom';
 
-import IntroduceWrapPage from "./js/introduce/WrapPage/WrapPage";
-import Login from './js/login/Login';
-import Join from './js/join/Join';
-import Main from './js/main/Main';
+import IntroduceWrapPage from "./js/Introduce/WrapPage/WrapPage";
+import Login from './js/Login/Login';
+import SignUp from './js/SignUp/SignUp';
+import Main from './js/Main/Main';
 import React, { useState } from 'react';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         {isLogined ? null :
           <>
             <Route path="login" element={<Login />} />
-            <Route path="join" element={<Join />} />
+            <Route path="join" element={<SignUp />} />
           </>
         }
         <Route path='main/*' element={<Main isLogined={isLogined} />} />
