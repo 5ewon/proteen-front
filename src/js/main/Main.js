@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../header/Header';
 import Chatbot from '../chatbot/Chatbot';
 
@@ -20,6 +20,7 @@ function Main({isLogined}) {
                 <Route path="planner" element={<Planner />} />
                 <Route path="twoweeksstudy" element={<TwoWeeksStudy />} />
                 <Route path="community" element={<Community />} />
+                <Route path="/" element={<Navigate to="home" />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>
