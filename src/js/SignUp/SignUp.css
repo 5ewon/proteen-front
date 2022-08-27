@@ -1,0 +1,96 @@
+#signup-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D4F0FF;
+}
+#signup-page #signup-section {
+  width: 853px;
+  height: 548px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1.084fr 1.476fr;
+}
+#signup-page #signup-section > div {
+  background-color: white;
+  overflow: hidden;
+}
+#signup-page #signup-section > div:first-child {
+  border-radius: 25px 0 0 25px;
+  border-right: 1px solid #C4C6C8;
+}
+#signup-page #signup-section > div:first-child #signup-contents {
+  position: relative;
+  top: 18%;
+  left: 12%;
+}
+#signup-page #signup-section > div:first-child #signup-contents #signup-division-line {
+  height: 1.5px;
+  width: 150px;
+  background-color: #C4C6C8;
+  margin-bottom: 20px;
+}
+#signup-page #signup-section > div:first-child #signup-contents > h6,
+#signup-page #signup-section > div:first-child #signup-contents img,
+#signup-page #signup-section > div:first-child #signup-contents div {
+  margin-bottom: 8px;
+}
+#signup-page #signup-section > div:first-child #signup-contents > h6 {
+  font-size: 18px;
+}
+#signup-page #signup-section > div:first-child #signup-contents > img {
+  width: 250px;
+}
+#signup-page #signup-section > div:last-child {
+  border-radius: 0 25px 25px 0;
+  border-left: 1px solid #C4C6C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup-page #signup-section > div:last-child #signup-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#signup-page #signup-section > div:last-child #signup-inputs input {
+  border-radius: 8px;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form {
+  display: flex;
+  flex-direction: column;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form > div {
+  margin-bottom: 20px;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form > div > input {
+  background-color: #F4F3F3;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form #terms {
+  display: flex;
+  flex-direction: column;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form #terms > label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #C4C6C8;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form #terms #signup-checkbox-division-line {
+  height: 1.5px;
+  width: 100%;
+  background-color: #E8E6E6;
+  margin: 10px 0;
+}
+#signup-page #signup-section > div:last-child #signup-inputs form > input {
+  height: 38px;
+  background-color: #46BEFF;
+  color: white;
+}
+
+/*# sourceMappingURL=SignUp.css.map */

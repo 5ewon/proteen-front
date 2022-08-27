@@ -22,7 +22,7 @@ function App() {
         {isLogined ? null :
           <>
             <Route path="login" element={<Login />} />
-            <Route path="join" element={<SignUp />} />
+            <Route path="signup" element={<SignUp />} />
           </>
         }
         <Route path='main/*' element={<Main isLogined={isLogined} />} />
