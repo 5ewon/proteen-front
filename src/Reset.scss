@@ -34,5 +34,8 @@ input{
     outline: none;
 	background-color: rgba(0, 0, 0, 0);
 }
+input[type=button], input[type=submit]{
+	cursor: pointer;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
