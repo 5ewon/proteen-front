@@ -14,16 +14,16 @@ function FirstPage({isLogined}) {
     });
 
     if (scrollOpacity)
-        setTimeout(() => scrollSign.current.classList.add('scroll-remove'), 0);
+        setTimeout(() => scrollSign.current.classList.add('ScrollRemove'), 0);
     else
-        setTimeout(() => scrollSign.current.classList.remove('scroll-remove'), 0);
+        setTimeout(() => scrollSign.current.classList.remove('ScrollRemove'), 0);
 
     return (
-        <div className="containers">
-            <div id="login-wrap">
+        <div className="IntroduceContainers">
+            <div id="introduce-login-wrap">
                 <img id="introduce-first-page-logo" src={logo} alt="logo" />
                 {isLogined ? null :
-                    <div id="login-signup-buttons">
+                    <div id="introduce-login-signup-buttons">
                         <input type="button" value="로그인" />
                         <input type="button" value="회원가입" />
                     </div>

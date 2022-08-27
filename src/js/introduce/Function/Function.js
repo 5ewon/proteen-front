@@ -2,11 +2,11 @@ import './Function.css';
 
 function Function() {
     return(
-        <div className="containers">
+        <div className="IntroduceContainers">
             <h3 id="introduce-function-h3">기능소개</h3>
             <div id="functions-container">
-                <div className="function">
-                    <div className="wrap-function">
+                <div className="Function">
+                    <div className="WrapFunction">
                         <div>
                             {/* <img /> */}
                             회원관리
@@ -16,8 +16,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="function">
-                    <div className="wrap-function">
+                <div className="Function">
+                    <div className="WrapFunction">
                         <div>
                             {/* <img /> */}
                             계시판 이용
@@ -27,8 +27,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="function">
-                    <div className="wrap-function">
+                <div className="Function">
+                    <div className="WrapFunction">
                         <div>
                             {/* <img /> */}
                             플래너 작성
@@ -38,8 +38,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="function">
-                    <div className="wrap-function">
+                <div className="Function">
+                    <div className="WrapFunction">
                         <div>
                             {/* <img /> */}
                             인공지능 챗봇
