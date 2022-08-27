@@ -12,9 +12,7 @@ import Main from './js/main/Main';
 import React, { useState } from 'react';
 
 function App() {
-  // 여기서 로그인이 됐는지 state에 값을 저장한 후
-  // IntroduceWrapPage, Main, Login, Join에 prop으로 전달
-  // 그 값을 토대로 각각 라우팅 될건지 만듦
+  // 여기서 로그인이 됐는지 state에 값을 저장
   const [isLogined, setIsLogined] = useState(false);
 
   return (
