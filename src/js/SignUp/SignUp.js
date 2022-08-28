@@ -32,7 +32,7 @@ function SignUp() {
                                 <input placeholder='영문자, 숫자, 특수문자 포함 최소 8자' />
                                 <input placeholder='영문자, 숫자, 특수문자 포함 최소 8자' />
                             </div>
-                            <div id="terms">
+                            <div id="signup-terms">
                                 <label>
                                     <input type="checkbox" />
                                     전체동의

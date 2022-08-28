@@ -71,17 +71,17 @@
   padding: 12px;
   width: 100%;
 }
-#signup-page #signup-section > div:last-child #signup-inputs form #terms {
+#signup-page #signup-section > div:last-child #signup-inputs form #signup-terms {
   display: flex;
   flex-direction: column;
 }
-#signup-page #signup-section > div:last-child #signup-inputs form #terms > label {
+#signup-page #signup-section > div:last-child #signup-inputs form #signup-terms > label {
   font-size: 12px;
   display: flex;
   align-items: center;
   color: #C4C6C8;
 }
-#signup-page #signup-section > div:last-child #signup-inputs form #terms #signup-checkbox-division-line {
+#signup-page #signup-section > div:last-child #signup-inputs form #signup-terms #signup-checkbox-division-line {
   height: 1.5px;
   width: 100%;
   background-color: #C4C6C8;

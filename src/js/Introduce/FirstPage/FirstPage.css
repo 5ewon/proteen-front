@@ -1,4 +1,4 @@
-#introduce-login-wrap {
+#introduce-login {
   width: min-content;
   left: 15%;
   position: fixed;
@@ -8,16 +8,16 @@
   flex-direction: column;
   align-items: center;
 }
-#introduce-login-wrap #introduce-first-page-logo {
+#introduce-login #introduce-logo {
   margin-bottom: 10%;
   width: 110%;
 }
-#introduce-login-wrap #introduce-login-signup-buttons {
+#introduce-login #introduce-login-signup {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#introduce-login-wrap #introduce-login-signup-buttons input {
+#introduce-login #introduce-login-signup input {
   width: 280px;
   height: 40px;
   margin: 5px 0;
@@ -26,13 +26,13 @@
   border: 1px solid #46BEFF;
   color: #46BEFF;
 }
-#introduce-login-wrap #introduce-login-signup-buttons input:first-child {
+#introduce-login #introduce-login-signup input:first-child {
   background-color: #46BEFF;
   border: none;
   color: white;
 }
 
-#scroll-sign {
+#introduce-scroll-icon {
   bottom: 50px;
   font-size: 18px;
   transition: 0.2s ease-out;
@@ -42,7 +42,7 @@
   transform: translateX(-50%);
   user-select: none;
 }
-#scroll-sign #mouse-body {
+#introduce-scroll-icon #introduce-mouse {
   box-sizing: border-box;
   width: 40px;
   height: 70px;
@@ -50,7 +50,7 @@
   border-radius: 40px;
   margin: 11px auto 0;
 }
-#scroll-sign #mouse-body #scroller {
+#introduce-scroll-icon #introduce-mouse #introduce-wheel {
   background-color: #46BEFF;
   box-sizing: border-box;
   border: 1.5px solid #46BEFF;
@@ -77,11 +77,11 @@
   }
 }
 
-.ScrollRemove {
+.introduce-remove {
   opacity: 0;
 }
 
-#background-img {
+#introduce-bg-img {
   position: fixed;
   width: 38%;
   left: 60%;

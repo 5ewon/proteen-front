@@ -6,7 +6,7 @@ import './WrapPage.css';
 
 function WrapPage({isLogined}) {
     return(
-        <div id="introduce-wrap-page">
+        <div>
             <FirstPage isLogined={isLogined} />
             <About />
             <Function />

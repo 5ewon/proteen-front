@@ -14,28 +14,28 @@ function FirstPage({isLogined}) {
     });
 
     if (scrollOpacity)
-        setTimeout(() => scrollSign.current.classList.add('ScrollRemove'), 0);
+        setTimeout(() => scrollSign.current.classList.add('introduce-remove'), 0);
     else
-        setTimeout(() => scrollSign.current.classList.remove('ScrollRemove'), 0);
+        setTimeout(() => scrollSign.current.classList.remove('introduce-remove'), 0);
 
     return (
-        <div className="IntroduceContainers">
-            <div id="introduce-login-wrap">
-                <img id="introduce-first-page-logo" src={logo} alt="logo" />
+        <div className="introduce-containers">
+            <div id="introduce-login">
+                <img id="introduce-logo" src={logo} alt="logo" />
                 {isLogined ? null :
-                    <div id="introduce-login-signup-buttons">
+                    <div id="introduce-login-signup">
                         <input type="button" value="로그인" />
                         <input type="button" value="회원가입" />
                     </div>
                 }
             </div>
-            <div id="scroll-sign" ref={scrollSign}>
+            <div id="introduce-scroll-icon" ref={scrollSign}>
                 스크롤하기
-                <div id="mouse-body">
-                    <div id="scroller"></div>
+                <div id="introduce-mouse">
+                    <div id="introduce-wheel"></div>
                 </div>
             </div>
-            <img id="background-img" src={FirstPageBG} alt="background" />
+            <img id="introduce-bg-img" src={FirstPageBG} alt="background" />
         </div>
     )
 }
