@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+
 import './FirstPage.css';
 import logo from '../../../images/logo.svg';
 import firstPageBG from '../../../images/cloud-computing.svg';
