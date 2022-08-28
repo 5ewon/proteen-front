@@ -1,5 +1,5 @@
 /* IntroduceFunction */
-#introduce-function-h3 {
+#introduce-function {
   display: inline-block;
   position: relative;
   font-size: 40px;
@@ -10,7 +10,7 @@
   user-select: none;
 }
 
-#functions-container {
+#introduce-functions-wrap {
   display: flex;
   justify-content: center;
   position: relative;
@@ -18,7 +18,7 @@
   height: 200px;
   user-select: none;
 }
-#functions-container .Function {
+#introduce-functions-wrap .introduce-functions {
   height: inherit;
   width: 180px;
   background-color: #f2f2f2;
@@ -26,20 +26,20 @@
   margin: 0 40px;
   overflow: hidden;
 }
-#functions-container .Function .WrapFunction {
+#introduce-functions-wrap .introduce-functions .introduce-function-wrap {
   height: inherit;
   transition: 0.4s;
 }
-#functions-container .Function .WrapFunction div {
+#introduce-functions-wrap .introduce-functions .introduce-function-wrap div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
 }
-#functions-container .Function .WrapFunction div:first-child {
+#introduce-functions-wrap .introduce-functions .introduce-function-wrap div:first-child {
   font-size: 1.5rem;
 }
-#functions-container .Function .WrapFunction:hover {
+#introduce-functions-wrap .introduce-functions .introduce-function-wrap:hover {
   transform: translateY(-100%);
 }
 

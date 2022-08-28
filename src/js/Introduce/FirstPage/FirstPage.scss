@@ -1,6 +1,6 @@
 @import '../../../Color.scss';
 
-#introduce-login-wrap {
+#introduce-login {
     width: min-content;
     left: 15%;
     position: fixed;
@@ -10,12 +10,12 @@
     flex-direction: column;
     align-items: center;
 
-    #introduce-first-page-logo {
+    #introduce-logo {
         margin-bottom: 10%;
         width: 110%;
     }
 
-    #introduce-login-signup-buttons {
+    #introduce-login-signup {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -38,7 +38,7 @@
     }
 }
 
-#scroll-sign {
+#introduce-scroll-icon {
     bottom: 50px;
     font-size: 18px;
     transition: 0.2s ease-out;
@@ -48,7 +48,7 @@
     transform: translateX(-50%);
     user-select: none;
 
-    #mouse-body {
+    #introduce-mouse {
         box-sizing: border-box;
         width: 40px;
         height: 70px;
@@ -56,7 +56,7 @@
         border-radius: 40px;
         margin: 11px auto 0;
 
-        #scroller {
+        #introduce-wheel {
             background-color: $main-blue;
             box-sizing: border-box;
             border: 1.5px solid $main-blue;
@@ -88,11 +88,11 @@
     }
 }
 
-.ScrollRemove {
+.introduce-remove {
     opacity: 0;
 }
 
-#background-img {
+#introduce-bg-img {
     position: fixed;
     width: 38%;
     left: 60%;

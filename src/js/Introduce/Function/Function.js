@@ -1,12 +1,12 @@
 import './Function.css';
 
-function Function() {
+function functions() {
     return(
-        <div className="IntroduceContainers">
-            <h3 id="introduce-function-h3">기능소개</h3>
-            <div id="functions-container">
-                <div className="Function">
-                    <div className="WrapFunction">
+        <div className="introduce-containers">
+            <h3 id="introduce-function">기능소개</h3>
+            <div id="introduce-functions-wrap">
+                <div className="introduce-functions">
+                    <div className="introduce-function-wrap">
                         <div>
                             {/* <img /> */}
                             회원관리
@@ -16,8 +16,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="Function">
-                    <div className="WrapFunction">
+                <div className="introduce-functions">
+                    <div className="introduce-function-wrap">
                         <div>
                             {/* <img /> */}
                             계시판 이용
@@ -27,8 +27,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="Function">
-                    <div className="WrapFunction">
+                <div className="introduce-functions">
+                    <div className="introduce-function-wrap">
                         <div>
                             {/* <img /> */}
                             플래너 작성
@@ -38,8 +38,8 @@ function Function() {
                         </div>
                     </div>
                 </div>
-                <div className="Function">
-                    <div className="WrapFunction">
+                <div className="introduce-functions">
+                    <div className="introduce-function-wrap">
                         <div>
                             {/* <img /> */}
                             인공지능 챗봇
@@ -54,4 +54,4 @@ function Function() {
     )
 }
 
-export default Function;
+export default functions;
