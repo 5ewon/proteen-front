@@ -18,7 +18,7 @@
   height: 200px;
   user-select: none;
 }
-#introduce-functions-wrap .introduce-functions {
+#introduce-functions-wrap > div {
   height: inherit;
   width: 180px;
   background-color: #f2f2f2;
@@ -26,20 +26,20 @@
   margin: 0 40px;
   overflow: hidden;
 }
-#introduce-functions-wrap .introduce-functions .introduce-function-wrap {
+#introduce-functions-wrap > div > div {
   height: inherit;
   transition: 0.4s;
 }
-#introduce-functions-wrap .introduce-functions .introduce-function-wrap div {
+#introduce-functions-wrap > div > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
 }
-#introduce-functions-wrap .introduce-functions .introduce-function-wrap div:first-child {
+#introduce-functions-wrap > div > div > div:first-child {
   font-size: 1.5rem;
 }
-#introduce-functions-wrap .introduce-functions .introduce-function-wrap:hover {
+#introduce-functions-wrap > div > div:hover {
   transform: translateY(-100%);
 }
 

@@ -5,8 +5,8 @@ function functions() {
         <div className="introduce-containers">
             <h3 id="introduce-function">기능소개</h3>
             <div id="introduce-functions-wrap">
-                <div className="introduce-functions">
-                    <div className="introduce-function-wrap">
+                <div>
+                    <div>
                         <div>
                             {/* <img /> */}
                             회원관리
@@ -16,8 +16,8 @@ function functions() {
                         </div>
                     </div>
                 </div>
-                <div className="introduce-functions">
-                    <div className="introduce-function-wrap">
+                <div>
+                    <div>
                         <div>
                             {/* <img /> */}
                             계시판 이용
@@ -27,8 +27,8 @@ function functions() {
                         </div>
                     </div>
                 </div>
-                <div className="introduce-functions">
-                    <div className="introduce-function-wrap">
+                <div>
+                    <div>
                         <div>
                             {/* <img /> */}
                             플래너 작성
@@ -38,8 +38,8 @@ function functions() {
                         </div>
                     </div>
                 </div>
-                <div className="introduce-functions">
-                    <div className="introduce-function-wrap">
+                <div>
+                    <div>
                         <div>
                             {/* <img /> */}
                             인공지능 챗봇

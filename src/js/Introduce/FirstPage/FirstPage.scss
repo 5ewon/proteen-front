@@ -28,13 +28,14 @@
             border-radius: 35px;
             border: 1px solid $main-blue;
             color: $main-blue;
+
+            &:first-child {
+                background-color: $main-blue;
+                border: none;
+                color: white;
+            }
         }
 
-        input:first-child {
-            background-color: $main-blue;
-            border: none;
-            color: white;
-        }
     }
 }
 
@@ -95,7 +96,7 @@
 #introduce-bg-img {
     position: fixed;
     width: 38%;
-    left: 60%;
+    left: 55%;
     top:50%;
     transform: translateY(-50%);
 }

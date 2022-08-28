@@ -6,53 +6,47 @@
   width: 100vw;
   border-bottom: 3px solid #46BEFF;
 }
-
-#header-wrap {
+#header #header-wrap {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: inherit;
   margin-left: 80px;
 }
-
-#header-logo img {
+#header #header-wrap #header-logo img {
   width: 200px;
 }
-
-#header-login-signup {
-  display: flex;
-  margin-right: 25px;
-}
-
-#header-wrap li, #header-notice-profile li, #header-login-signup li {
+#header #header-wrap li {
   cursor: pointer;
   margin: 0 15px;
-}
-
-#header-wrap li, #header-login-signup li {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
 }
-
-#header-wrap a {
-  text-decoration: none;
-  color: black;
+#header #header-login-signup {
+  display: flex;
+  margin-right: 25px;
 }
-
-#header-login-signup li {
+#header #header-login-signup li {
+  cursor: pointer;
+  margin: 0 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
   border: 2px solid #E8E6E6;
   padding: 4px;
 }
-
-#header-login-signup li:nth-child(1) {
+#header #header-login-signup li:first-child {
   background-color: #E8E6E6;
   border-radius: 5px;
 }
-
-#header-login-signup li:nth-child(2) {
+#header #header-login-signup li:last-child {
   background-color: #D4F0FF;
   border-radius: 5px;
+}
+#header #header-notice-profile li {
+  cursor: pointer;
+  margin: 0 15px;
 }
 
 /*# sourceMappingURL=Header.css.map */

@@ -19,7 +19,7 @@
     height: 200px;
     user-select: none;
 
-    .introduce-functions {
+    > div {
         height: inherit;
         width: 180px;
         background-color: #f2f2f2;
@@ -27,23 +27,22 @@
         margin: 0 40px;
         overflow: hidden;
 
-        .introduce-function-wrap {
+        > div {
             height: inherit;
             transition: 0.4s;
 
-            div {
+            > div {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: inherit;
+                &:first-child{
+                    font-size: 1.5rem;
+                }
             }
-            div:first-child{
-                font-size: 1.5rem;
+            &:hover{
+                transform: translateY(-100%);
             }
-        }
-
-        .introduce-function-wrap:hover {
-            transform: translateY(-100%);
         }
     }
 }
