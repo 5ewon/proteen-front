@@ -19,7 +19,7 @@
     background-color: white;
     position:sticky;
     top:0;
-}
-.introduce-containers:nth-child(2){
-    background-color: $main-light-gray;
+    &:nth-child(even){
+        background-color: $main-light-gray;
+    }
 }
