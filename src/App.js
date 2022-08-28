@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 
 import IntroduceWrapPage from "./js/Introduce/WrapPage/WrapPage";
-import Login from './js/Login/Login';
-import SignUp from './js/SignUp/SignUp';
+import Login from './js/LoginSignUp/Login/Login';
+import SignUp from './js/LoginSignUp/SignUp/SignUp';
 import Main from './js/Main/Main';
 import React, { useState } from 'react';
 
