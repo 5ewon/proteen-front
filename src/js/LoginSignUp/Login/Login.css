@@ -1,0 +1,45 @@
+#login-section {
+  border-radius: 0 25px 25px 0;
+  border-left: 1px solid #C4C6C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login-section #login-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#login-section #login-inputs input {
+  height: 38px;
+  border-radius: 8px;
+}
+#login-section #login-inputs form {
+  display: flex;
+  flex-direction: column;
+}
+#login-section #login-inputs form > div {
+  margin-bottom: 30px;
+}
+#login-section #login-inputs form > div input {
+  background-color: #F4F3F3;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+}
+#login-section #login-inputs form > input {
+  margin-top: 5px;
+  background-color: #46BEFF;
+  color: white;
+}
+#login-section #login-inputs > input {
+  width: 200px;
+  height: 35px;
+  margin-top: 25px;
+  border: 2px solid #46BEFF;
+  color: #46BEFF;
+  align-self: center;
+}
+
+/*# sourceMappingURL=Login.css.map */

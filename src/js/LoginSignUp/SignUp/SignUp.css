@@ -1,0 +1,52 @@
+#signup-section {
+  border-radius: 0 25px 25px 0;
+  border-left: 1px solid #C4C6C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup-section #signup-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#signup-section #signup-inputs input {
+  border-radius: 8px;
+}
+#signup-section #signup-inputs form {
+  display: flex;
+  flex-direction: column;
+}
+#signup-section #signup-inputs form > div {
+  margin-bottom: 20px;
+}
+#signup-section #signup-inputs form > div > input {
+  background-color: #F4F3F3;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+}
+#signup-section #signup-inputs form #signup-terms {
+  display: flex;
+  flex-direction: column;
+}
+#signup-section #signup-inputs form #signup-terms > label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #C4C6C8;
+}
+#signup-section #signup-inputs form #signup-terms #signup-checkbox-division-line {
+  height: 1.5px;
+  width: 100%;
+  background-color: #C4C6C8;
+  margin: 10px 0;
+}
+#signup-section #signup-inputs form > input {
+  height: 38px;
+  background-color: #46BEFF;
+  color: white;
+}
+
+/*# sourceMappingURL=SignUp.css.map */

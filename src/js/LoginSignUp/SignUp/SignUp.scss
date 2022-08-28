@@ -1,0 +1,63 @@
+@import '../../../Color.scss';
+
+#signup-section {
+    border-radius: 0 25px 25px 0;
+    border-left: 1px solid $main-dark-gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #signup-inputs {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+        input {
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            >div {
+                margin-bottom: 20px;
+
+                >input {
+                    background-color: $main-light-gray;
+                    box-sizing: border-box;
+                    margin-top: 15px;
+                    padding: 12px;
+                    width: 100%;
+                }
+            }
+
+            #signup-terms {
+                display: flex;
+                flex-direction: column;
+
+                >label {
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    color: $main-dark-gray;
+                }
+
+                #signup-checkbox-division-line {
+                    height: 1.5px;
+                    width: 100%;
+                    background-color: $main-dark-gray;
+                    margin: 10px 0;
+                }
+            }
+
+            >input {
+                height: 38px;
+                background-color: $main-blue;
+                color: white;
+            }
+
+        }
+    }
+}
