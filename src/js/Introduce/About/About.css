@@ -21,4 +21,14 @@
   user-select: none;
 }
 
+#cloud-background {
+  position: relative;
+  z-index: -1;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 32px;
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=About.css.map */

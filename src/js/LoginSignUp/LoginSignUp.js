@@ -1,4 +1,5 @@
 import logo from '../../images/logo.svg';
+import cat from '../../images/cat.svg';
 import './LoginSignUp.css';
 
 function LoginSignUp({children}) {
@@ -15,6 +16,7 @@ function LoginSignUp({children}) {
                             SW 독학은 프로틴에서
                         </div>
                     </div>
+                    <img src={cat} />
                 </div>
                 {children}
             </div>

@@ -1,4 +1,8 @@
 import './Function.css';
+import membership from '../../../images/Function/membership.svg';
+import schedule from '../../../images/Function/schedule.svg';
+import planning from '../../../images/Function/planning.svg';
+import chatbot from '../../../images/Function/chatbot.svg';
 
 function functions() {
     return(
@@ -8,7 +12,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            {/* <img /> */}
+                            <img src={membership} />
                             회원관리
                         </div>
                         <div>
@@ -19,7 +23,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            {/* <img /> */}
+                            <img src={schedule} />
                             계시판 이용
                         </div>
                         <div>
@@ -30,7 +34,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            {/* <img /> */}
+                            <img src={planning} />
                             플래너 작성
                         </div>
                         <div>
@@ -41,7 +45,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            {/* <img /> */}
+                            <img src={chatbot} />
                             인공지능 챗봇
                         </div>
                         <div>
