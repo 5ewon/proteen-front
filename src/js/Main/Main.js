@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
+
 import Header from '../Header/Header';
 import Chatbot from '../Chatbot/Chatbot';
-
 import Home from '../Home/Home';
 import Profile from '../Profile/Profile';
 import Planner from '../Planner/Planner';
