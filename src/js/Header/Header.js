@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo.svg';
 
 function Header({isLogined}) {
     // 로그인이 됐다면 home-login 삭제 로직 구현

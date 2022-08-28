@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import './FirstPage.css';
-import logo from '../../../images/logo.png';
-import FirstPageBG from '../../../images/introduce_first_page_bg.png'
+import logo from '../../../images/logo.svg';
+import firstPageBG from '../../../images/cloud-computing.svg';
 
 function FirstPage({isLogined}) {
     const scrollSign = useRef(null);
@@ -35,7 +35,7 @@ function FirstPage({isLogined}) {
                     <div id="introduce-wheel"></div>
                 </div>
             </div>
-            <img id="introduce-bg-img" src={FirstPageBG} alt="background" />
+            <img id="introduce-bg-img" src={firstPageBG} alt="background" />
         </div>
     )
 }

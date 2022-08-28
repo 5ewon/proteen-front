@@ -1,4 +1,4 @@
-import logo from '../../images/logo.png';
+import logo from '../../images/logo.svg';
 import './LoginSignUp.css';
 
 function LoginSignUp({children}) {
