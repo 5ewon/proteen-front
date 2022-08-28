@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 
 import './FirstPage.css';
 import logo from '../../../images/logo.svg';
-import firstPageBG from '../../../images/cloud-computing.svg';
+import firstPageBG from '../../../images/cloud_computing.svg';
 
 function FirstPage({isLogined}) {
     const scrollSign = useRef(null);
