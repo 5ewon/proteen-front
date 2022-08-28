@@ -25,37 +25,37 @@
                 bottom: 0;
                 left: 10px;
             }
-        }
-
-        >div:first-child {
-            border-radius: 25px 0 0 25px;
-            border-right: 1px solid $main-dark-gray;
-
-            #login-signup-contents {
-                position: relative;
-                top: 18%;
-                left: 12%;
-
-                #login-signup-line {
-                    height: 1.5px;
-                    width: 150px;
-                    background-color: $main-dark-gray;
-                    margin-bottom: 20px;
-                }
-
-
-                >h6,
-                img,
-                div {
-                    margin-bottom: 8px;
-                }
-
-                >h6 {
-                    font-size: 18px;
-                }
-
-                >img {
-                    width: 250px;
+            
+            &:first-child {
+                border-radius: 25px 0 0 25px;
+                border-right: 1px solid $main-dark-gray;
+    
+                #login-signup-contents {
+                    position: relative;
+                    top: 18%;
+                    left: 12%;
+    
+                    #login-signup-line {
+                        height: 1.5px;
+                        width: 150px;
+                        background-color: $main-dark-gray;
+                        margin-bottom: 20px;
+                    }
+    
+    
+                    >h6,
+                    img,
+                    div {
+                        margin-bottom: 8px;
+                    }
+    
+                    >h6 {
+                        font-size: 18px;
+                    }
+    
+                    >img {
+                        width: 250px;
+                    }
                 }
             }
         }
