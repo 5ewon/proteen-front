@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import './FirstPage.css';
 import logo from '../../../images/logo.svg';
 import firstPageBG from '../../../images/cloud_computing.svg';
 
-function FirstPage({isLogined}) {
+function FirstPage({ isLogined }) {
     const scrollSign = useRef(null);
     const [scrollOpacity, setScrollOpacity] = useState(false);
 
@@ -25,8 +26,16 @@ function FirstPage({isLogined}) {
                 <img id="introduce-logo" src={logo} alt="logo" />
                 {isLogined ? null :
                     <div id="introduce-login-signup">
-                        <input type="button" value="로그인" />
-                        <input type="button" value="회원가입" />
+                        <Link to="/login" >
+                            <div>
+                                로그인
+                            </div>
+                        </Link>
+                        <Link to="/signup">
+                            <div>
+                                회원가입
+                            </div>
+                        </Link>
                     </div>
                 }
             </div>
