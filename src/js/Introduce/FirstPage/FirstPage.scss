@@ -20,19 +20,26 @@
         flex-direction: column;
         align-items: center;
 
-        input {
+        a {
+            display: inline-block;
             width: 280px;
             height: 40px;
             margin: 5px 0;
-            font-size: 16px;
-            border-radius: 35px;
-            border: 1px solid $main-blue;
-            color: $main-blue;
-
+            div {
+                font-size: 16px;
+                border-radius: 35px;
+                border: 1px solid $main-blue;
+                color: $main-blue;
+                line-height: 40px;
+                text-align: center;
+    
+            }
             &:first-child {
-                background-color: $main-blue;
-                border: none;
-                color: white;
+                div{
+                    background-color: $main-blue;
+                    border: none;
+                    color: white;
+                }
             }
         }
 
@@ -97,6 +104,6 @@
     position: fixed;
     width: 38%;
     left: 55%;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
