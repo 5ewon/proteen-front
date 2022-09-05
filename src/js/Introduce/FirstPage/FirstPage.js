@@ -2,8 +2,8 @@ import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './FirstPage.css';
-import logo from '../../../images/logo.svg';
-import firstPageBG from '../../../images/cloud_computing.svg';
+import logo from 'images/logo.svg';
+import firstPageBG from 'images/cloud_computing.svg';
 
 function FirstPage({ isLogined }) {
     const scrollSign = useRef(null);

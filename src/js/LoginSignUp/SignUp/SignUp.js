@@ -1,4 +1,4 @@
-import LoginSignUp from '../LoginSignUp';
+import LoginSignUp from 'js/LoginSignUp/LoginSignUp';
 import './SignUp.css';
 
 function SignUp() {

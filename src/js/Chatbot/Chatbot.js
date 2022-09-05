@@ -1,7 +1,7 @@
 import './Chatbot.css';
-import chatbot_image from '../../images/chatbot.svg';
-import three_dots from '../../images/three_dots.svg';
-import close from '../../images/close.svg';
+import chatbot_image from 'images/Chatbot/chatbot.svg';
+import three_dots from 'images/Chatbot/three_dots.svg';
+import close from 'images/Chatbot/close.svg';
 import { useState } from 'react';
 
 function Chatbot() {
