@@ -1,7 +1,7 @@
-import FirstPage from "../FirstPage/FirstPage";
-import About from "../About/About";
-import Function from "../Function/Function";
-import Footer from "../Footer/Footer";
+import FirstPage from "js/Introduce/FirstPage/FirstPage";
+import About from "js/Introduce/About/About";
+import Function from "js/Introduce/Function/Function";
+import Footer from "js/Introduce/Footer/Footer";
 import './WrapPage.css';
 
 function WrapPage({isLogined}) {

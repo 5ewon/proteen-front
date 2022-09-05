@@ -1,11 +1,30 @@
 import './Chatbot.css';
-import chatbot_image from '../../images/chatbot.svg';
+import chatbot_image from 'images/Chatbot/chatbot.svg';
+import three_dots from 'images/Chatbot/three_dots.svg';
+import close from 'images/Chatbot/close.svg';
+import { useState } from 'react';
 
-function Chatbot(){
-    return(
+function Chatbot() {
+    const [isClick, setIsClick] = useState(false);
+    return (
         <div id="chatbot">
-            <div>챗봇</div>
-            <img src={chatbot_image} alt="chatbot" />
+            {isClick ?
+                <div id="chatbot-container">
+                    <div id="chatbot-header">
+                        프로틴
+                        <div id="chatbot-header-buttons">
+                            <img id="chatbot-settings" src={three_dots} alt="settings" />
+                            <img id="chatbot-close" src={close} alt="close" onClick={() => setIsClick(false)} />
+                        </div>
+                    </div>
+                    <div id="chatbot-section"></div>
+                    <div id="chatbot-message">
+                        <input placeholder="글을 입력해주세요." />
+                    </div>
+                </div> : <div id="chatbot-button" onClick={() => setIsClick(true)}>
+                    <div>챗봇</div>
+                    <img src={chatbot_image} alt="chatbot" />
+                </div>}
         </div>
     );
 }

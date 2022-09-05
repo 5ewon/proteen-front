@@ -6,10 +6,10 @@ import {
   Navigate
 } from 'react-router-dom';
 
-import IntroduceWrapPage from "./js/Introduce/WrapPage/WrapPage";
-import Login from './js/LoginSignUp/Login/Login';
-import SignUp from './js/LoginSignUp/SignUp/SignUp';
-import Main from './js/Main/Main';
+import IntroduceWrapPage from "js/Introduce/WrapPage/WrapPage";
+import Login from 'js/LoginSignUp/Login/Login';
+import SignUp from 'js/LoginSignUp/SignUp/SignUp';
+import Main from 'js/Main/Main';
 
 function App() {
   // 여기서 로그인이 됐는지 state에 값을 저장

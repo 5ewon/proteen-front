@@ -1,8 +1,8 @@
 import './Function.css';
-import membership from '../../../images/Function/membership.svg';
-import schedule from '../../../images/Function/schedule.svg';
-import planning from '../../../images/Function/planning.svg';
-import chatbot from '../../../images/Function/chatbot.svg';
+import membership from 'images/Function/membership.svg';
+import schedule from 'images/Function/schedule.svg';
+import planning from 'images/Function/planning.svg';
+import chatbot from 'images/Function/chatbot.svg';
 
 function functions() {
     return(

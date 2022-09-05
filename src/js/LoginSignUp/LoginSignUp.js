@@ -1,5 +1,5 @@
-import logo from '../../images/logo.svg';
-import cat from '../../images/cat.svg';
+import logo from 'images/logo.svg';
+import cat from 'images/cat.svg';
 import './LoginSignUp.css';
 
 function LoginSignUp({children}) {
