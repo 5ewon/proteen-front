@@ -10,7 +10,7 @@ function About() {
                 학습에서 불필요한 것들을 억제하고 쉽게 학습 내용을 흡수할 수 있도록 돕는
                 서비스를 의미합니다.
             </div>
-            <img id="cloud-background" src={cloudBackground} />
+            <img id="cloud-background" src={cloudBackground} alt="cloud background" />
         </div>
     )
 }

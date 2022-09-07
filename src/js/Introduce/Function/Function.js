@@ -12,7 +12,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            <img src={membership} />
+                            <img src={membership} alt="membership" />
                             회원관리
                         </div>
                         <div>
@@ -23,7 +23,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            <img src={schedule} />
+                            <img src={schedule} alt="schedule" />
                             계시판 이용
                         </div>
                         <div>
@@ -34,7 +34,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            <img src={planning} />
+                            <img src={planning} alt="planning" />
                             플래너 작성
                         </div>
                         <div>
@@ -45,7 +45,7 @@ function functions() {
                 <div>
                     <div>
                         <div>
-                            <img src={chatbot} />
+                            <img src={chatbot} alt="chatbot" />
                             인공지능 챗봇
                         </div>
                         <div>
