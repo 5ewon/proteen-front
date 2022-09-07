@@ -1,4 +1,4 @@
-import './Chatbot.css';
+import './Chatbot.scss';
 import chatbot_image from 'images/Chatbot/chatbot.svg';
 import three_dots from 'images/Chatbot/three_dots.svg';
 import close from 'images/Chatbot/close.svg';
