@@ -63,14 +63,40 @@ $padding: 8;
             align-items: center;
             justify-content: center;
             box-shadow: 0 -22.5px 20px white;
-            > input{
-                font-size: 12px;
-                background-color: $main-gray;
-                height: 30px;
+            
+            > div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 12px;
                 width: 270px;
-                border-radius: 25px;
-                padding: 10px;
+                height: 30px;
                 box-sizing: border-box;
+                background-color: $main-gray;
+                border-radius: 25px;
+
+                > input {
+                    padding: 0;
+                    margin: 0;
+                    vertical-align: middle;
+                    line-height: 40px;
+                    font-size: 12px;
+                }
+                > div {
+                    display: flex;
+                    align-items: center;
+
+                    > img {
+                        &:first-child {
+                            width: 21px;
+                            margin-right: 3px;
+                        }
+                        &:last-child {
+                            width: 12px;
+                        }
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }
