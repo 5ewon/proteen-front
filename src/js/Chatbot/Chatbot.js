@@ -2,6 +2,9 @@ import './Chatbot.css';
 import chatbot_image from 'images/Chatbot/chatbot.svg';
 import three_dots from 'images/Chatbot/three_dots.svg';
 import close from 'images/Chatbot/close.svg';
+import file from 'images/Chatbot/file.svg';
+import emoticon from 'images/Chatbot/emoticon.svg';
+
 import { useState } from 'react';
 
 function Chatbot() {
@@ -19,7 +22,13 @@ function Chatbot() {
                     </div>
                     <div id="chatbot-section"></div>
                     <div id="chatbot-message">
-                        <input placeholder="글을 입력해주세요." />
+                        <div>
+                            <input placeholder="글을 입력해주세요." />
+                            <div id="buttons">
+                                <img src={emoticon} alt="emoticon" />
+                                <img src={file} alt="file" />
+                            </div>
+                        </div>
                     </div>
                 </div> : <div id="chatbot-button" onClick={() => setIsClick(true)}>
                     <div>챗봇</div>
