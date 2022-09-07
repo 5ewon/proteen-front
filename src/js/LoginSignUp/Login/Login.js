@@ -1,5 +1,5 @@
 import LoginSignUp from 'js/LoginSignUp/LoginSignUp';
-import './Login.css';
+import './Login.scss';
 
 function Login() {
     return (

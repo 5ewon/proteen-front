@@ -1,4 +1,4 @@
-import './About.css';
+import './About.scss';
 import cloudBackground from 'images/cloud_background.svg';
 
 function About() {

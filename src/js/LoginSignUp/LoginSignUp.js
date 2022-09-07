@@ -1,6 +1,6 @@
 import logo from 'images/logo.svg';
 import cat from 'images/cat.svg';
-import './LoginSignUp.css';
+import './LoginSignUp.scss';
 
 function LoginSignUp({children}) {
     return (

@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import './FirstPage.css';
+import './FirstPage.scss';
 import logo from 'images/logo.svg';
 import firstPageBG from 'images/cloud_computing.svg';
 
