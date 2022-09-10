@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import './Header.scss';
 import logo from 'images/logo.svg';
+import bell from 'images/Profile/bell.svg';
 
 function Header({isLogined}) {
     // 로그인이 됐다면 home-login 삭제 로직 구현
@@ -26,8 +27,12 @@ function Header({isLogined}) {
             </ul>
             {isLogined ?
                 <ul id="header-notice-profile">
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <Link to="profile">
+                            <span id="header-user-id">아무개</span>님
+                        </Link>
+                    </li>
+                    <li><img src={bell} alt="notice" /></li>
                 </ul>
                 : <ul id="header-login-signup">
                     <li>
