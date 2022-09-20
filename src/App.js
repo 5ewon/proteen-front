@@ -13,7 +13,7 @@ import Main from 'js/Main/Main';
 
 function App() {
   // 여기서 로그인이 됐는지 state에 값을 저장
-  const [isLogined, setIsLogined] = useState(false);
+  const [isLogined, setIsLogined] = useState(true);
 
   return (
     <Router>

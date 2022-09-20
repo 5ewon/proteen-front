@@ -5,15 +5,15 @@
     align-items: center;
     justify-content: space-between;
     height: 64px;
-    width: 100vw;
-    border-bottom:3px solid $main-blue  ;
+    width: 100%;
+    padding: 0 85px;
+    box-sizing: border-box;
     
     #header-wrap{
         display: flex;
         align-items: center;
         justify-content: flex-start;
         height: inherit;
-        margin-left: 80px;
 
         #header-logo{
 
@@ -52,9 +52,11 @@
         }
     }
     #header-notice-profile{
+        display: flex;
+        align-items: center;
         li{
             cursor: pointer;
-            margin: 0 15px;
+            margin: 0 10px;
         }
     }
 }
