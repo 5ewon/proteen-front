@@ -1,0 +1,20 @@
+@import '/src/Color/Color.scss';
+
+#float-post {
+    width:100vw;
+    height: 376px;
+    background-color:$community-blue;
+}
+
+.postList {
+    display:flex;
+    justify-content:space-between;
+}
+
+.postList li {
+    display:flex;
+    align-items: center;
+    margin:83px;
+    background-color:white;
+    color:black;
+}
