@@ -4,17 +4,49 @@
     width:100vw;
     height: 376px;
     background-color:$community-blue;
+    border-bottom: 10px solid $community-gray;
+}
+
+#ment {
+    margin-left:165px;
+    padding-top:24px;
+    font-size:24px;
+    font-weight: 600;
 }
 
 .postList {
-    display:flex;
     justify-content:space-between;
+    z-index: 1;
 }
 
-.postList li {
-    display:flex;
-    align-items: center;
-    margin:83px;
+.postList img {
+    padding:13px 0px 0px 24px;
+}
+
+.sum {
+    color:purple;
+}
+
+.detail {
+    border-radius: 10px;
+    margin:8px 17px 0px 0px;
+    width:342px;
+    height: 277px;
     background-color:white;
-    color:black;
+    cursor:pointer;
+}
+
+//bottom list
+.post-list {
+    background-color:white;
+}
+
+.list {
+    border-radius: 10px;
+    margin:8px 17px 0px 0px;
+    width:1120px;
+    height: 340px;
+    box-shadow:2px 2px 2px;
+    background-color:white;
+    cursor:pointer;
 }

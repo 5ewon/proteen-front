@@ -29,7 +29,7 @@ function Header({isLogined}) {
                 <ul id="header-notice-profile">
                     <li>
                         <Link to="profile">
-                            <span id="header-user-id">아무개</span>님
+                            <div id="header-user"><span id="header-user-id">아무개</span>님</div>
                         </Link>
                     </li>
                     <li><img src={bell} alt="notice" /></li>
