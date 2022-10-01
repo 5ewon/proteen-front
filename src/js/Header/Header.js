@@ -13,7 +13,7 @@ function Header({isLogined}) {
                     <Link to="home"><img src={logo} alt="logo" /></Link>
                 </li>
                 <li>
-                    <Link to="twoweeksstudy">이주의 공부법</Link>
+                    <Link to="twoweeksstudy">이 주의 공부법</Link>
                 </li>
                 <li>
                     <Link to="planner">플래너</Link>
