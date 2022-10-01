@@ -1,0 +1,58 @@
+@import '/src/Color/Color.scss';
+
+#tier-information {
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    #show-benefit {
+        font-size: 17px;
+        padding: 18px 0;
+        border-bottom: 2px solid $main-dark-gray;
+    }
+    #options {
+        margin-top: 18px;
+        #about-information {
+            display: flex;
+            justify-content: space-between;
+
+            #about-proteen {
+                width: 410px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                padding: 25px;
+                padding-right: 60px;
+                border-radius: 8px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            #about-follower {
+                width: 430px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                border-radius: 8px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                div:nth-child(odd) {
+                    width: 130px;
+                    text-align: center;
+                }
+            }
+        }
+        #manage-information {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 18px;
+
+            div {
+                text-align: center;
+                min-width: 205px;
+                box-sizing: border-box;
+                padding: 25px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 8px;
+            }
+        }
+    }
+}
