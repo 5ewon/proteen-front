@@ -71,15 +71,62 @@ function Profile() {
                 <div id="benefit-information">
                     <div id="teers-info">
                         <div id="teers">
-                            <div>닭</div>
-                            <div>단</div>
-                            <div>헬</div>
-                            <div>계</div>
-                            <div>콩</div>
+                            <input id="chicken-teer" type="radio" name="teer" />
+                            <label htmlFor='chicken-teer'>
+                                닭
+                            </label>
+                            <input id="proteen-teer" type="radio" name="teer" />
+                            <label htmlFor='proteen-teer'>
+                                단
+                            </label>
+                            <input id="health-teer" type="radio" name="teer" />
+                            <label htmlFor='health-teer'>
+                                헬
+                            </label>
+                            <input id="egg-teer" type="radio" name="teer" />
+                            <label htmlFor='egg-teer'>
+                                계
+                            </label>
+                            <input id="bean-teer" type="radio" name="teer" />
+                            <label htmlFor='bean-teer'>
+                                콩
+                            </label>
                         </div>
-                        <div>
+                        <div id="teer-explanations">
+                            <fieldset>
+                                <legend>닭</legend>
+                                <ul>
+                                    <li>매달 15일 150g 추가 적립</li>
+                                    <li>본인 작섣 글 커뮤니티 상단에 1주일 고정</li>
+                                    <li>다음 등급에 달성할 수 있는 기회!</li>
+                                </ul>
+                            </fieldset>
+                            <fieldset>
+                                <legend>단</legend>
+                                <ul>
+                                    <li>매달 15일 150g 추가 적립</li>
+                                    <li>본인 작섣 글 커뮤니티 상단에 1주일 고정</li>
+                                    <li>다음 등급에 달성할 수 있는 기회!</li>
+                                </ul>
+                            </fieldset>
                             <fieldset>
                                 <legend>헬린이</legend>
+                                <ul>
+                                    <li>매달 15일 150g 추가 적립</li>
+                                    <li>본인 작섣 글 커뮤니티 상단에 1주일 고정</li>
+                                    <li>다음 등급에 달성할 수 있는 기회!</li>
+                                </ul>
+                            </fieldset>
+                            <fieldset>
+                                <legend>계</legend>
+                                <ul>
+                                    <li>매달 15일 150g 추가 적립</li>
+                                    <li>본인 작섣 글 커뮤니티 상단에 1주일 고정</li>
+                                    <li>다음 등급에 달성할 수 있는 기회!</li>
+                                </ul>
+                            </fieldset>
+                            <fieldset>
+                                <legend>콩</legend>
                                 <ul>
                                     <li>매달 15일 150g 추가 적립</li>
                                     <li>본인 작섣 글 커뮤니티 상단에 1주일 고정</li>

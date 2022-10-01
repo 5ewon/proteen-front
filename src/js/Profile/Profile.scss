@@ -112,7 +112,12 @@
                     display: flex;
                     align-items: flex-end;
                     justify-content: space-between;
-                    > div {
+                    width: 340px;
+                    
+                    > input { display: none; }
+
+                    // label 기본 디자인
+                    > label {
                         width: 60px;
                         border-top-left-radius: 5px;
                         border-top-right-radius: 5px;
@@ -123,32 +128,69 @@
                         padding: 15px;
                         font-weight: 900;
 
-                        &:nth-child(1) {
+
+                        &:nth-child(2) {
                             border-color: $red;
                             color: $red;
                             height: 230px;
                         }
-                        &:nth-child(2) {
+                        &:nth-child(4) {
                             border-color: $orange;
                             color: $orange;
                             height: 200px;
                         }
-                        &:nth-child(3) {
+                        &:nth-child(6) {
                             border-color: $blue;
                             color: $blue;
                             height: 170px;
                         }
-                        &:nth-child(4) {
+                        &:nth-child(8) {
                             border-color: $yellow;
                             color: $yellow;
                             height: 140px;
                         }
-                        &:nth-child(5) {
+                        &:nth-child(10) {
                             border-color: $yellow-green;
                             color: $yellow-green;
                             height: 110px;
                         }
                     }
+
+                    // 눌렸을 때 label 디자인
+                    > input[type=radio]:checked + label {
+                        &:nth-child(2) {
+                            background-color: $red;
+                            color: white;
+                            height: 230px;
+
+                            &#teer-explanations > fieldset:nth-child(1) { display: block; }
+                        }
+                        &:nth-child(4) {
+                            background-color: $orange;
+                            color: white;
+                            height: 200px;
+                        }
+                        &:nth-child(6) {
+                            background-color: $blue;
+                            color: white;
+                            height: 170px;
+                        }
+                        &:nth-child(8) {
+                            background-color: $yellow;
+                            color: white;
+                            height: 140px;
+                        }
+                        &:nth-child(10) {
+                            background-color: $yellow-green;
+                            color: white;
+                            height: 110px;
+                        }
+                    }
+                }
+
+                #teer-explanations {
+                    // 선택되지 않았을 때 설명이 안 보이게 함
+                    fieldset { display: none; }
                 }
             }
         }
