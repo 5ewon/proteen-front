@@ -1,0 +1,19 @@
+@import '/src/Color/Color.scss';
+
+#category {
+    margin:4vh 10vw 0px 9.5vw;
+    text-align: center;
+}
+.filter {
+    border:black solid 1px;
+    border-radius:15px;
+    width:150px;
+    height:40px;
+    font-size:24px;
+    cursor:pointer;
+    
+}
+.text {
+    margin:6px;
+    color:#888888;
+}
