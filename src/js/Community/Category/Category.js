@@ -16,14 +16,14 @@ const Category = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 6.9,
+        slidesToShow: 7,
         slidesToScroll: 2,
         arrows:false
     };
     return (
         <div id="category">
             <Slider {...settings}>
-                {/* <div>
+                <div>
                     <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
                         <div className="text">C</div>
                     </div>
@@ -67,8 +67,8 @@ const Category = () => {
                     <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
                         <div className="text">Css</div>
                     </div>
-                </div> */}
-                {dummy.options.map((options) => {
+                </div>
+                {/* {dummy.options.map((options) => {
                     return (
                         <div>
                             <div key={options.id} className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
@@ -78,7 +78,7 @@ const Category = () => {
                             </div>
                         </div>
                     )
-                })}
+                })} */}
             </Slider>
         </div>
     );

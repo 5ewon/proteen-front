@@ -3,13 +3,14 @@
 .list {
     background-color: white;
     border-radius:10px;
-    width:342px;
-    height:260px;
+    width:370px;
+    height:35vh;
     margin-left:10px;
+    font-size:15px;
     cursor:pointer;
 }
 #content {
-    margin:0px 10vw 0px 10vw;
+    margin:0px 14vw 0px 10vw;
     top:154px;
 }
 .detail {
@@ -18,15 +19,11 @@
 .inner {
     padding-top:5px;
     padding-left:5px;
-    width:232px;
+    width:300px;
 }
 .slick-prev::before {
     opacity: 0;
     display: none;
-}
-#profile {
-    width:40px;
-    height:40px;
 }
 .tag {
     color:blue;
@@ -40,6 +37,6 @@
 .bold {
     font-weight: 600;
 }
-.under {
-    margin-top:50px;
-}
+// .under {
+//     margin-top:50px;
+// }
