@@ -3,8 +3,8 @@
 .list {
     background-color: white;
     border-radius:10px;
-    width:370px;
-    height:35vh;
+    width:390px;
+    height:36vh;
     margin-left:10px;
     font-size:15px;
     cursor:pointer;
@@ -28,6 +28,9 @@
 .tag {
     color:blue;
 }
+#waiting {
+    margin-bottom:10px;
+}
 .title {
     font-weight:900;
 }
@@ -37,6 +40,6 @@
 .bold {
     font-weight: 600;
 }
-// .under {
-//     margin-top:50px;
-// }
+.under {
+    margin-top:50px;
+}

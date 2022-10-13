@@ -1,0 +1,24 @@
+@import '/src/Color/Color.scss';
+
+#input-title {
+    background-color: white;
+    border-radius:10px;
+    width:65vw;
+    height:7vh;
+    margin-bottom: 17px;
+    box-shadow:0px 2px 2px gray;
+}
+
+#input-detail {
+    background-color: white;
+    border-radius:10px;
+    width:65vw;
+    height:60vh;
+    box-shadow:0px 2px 2px gray;
+}
+
+input::placeholder {
+    padding-left:10px;
+    color:#9E9E9E;
+    font-size:16px;
+}
