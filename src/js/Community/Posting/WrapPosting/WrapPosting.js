@@ -1,6 +1,7 @@
 import React from 'react';
 import './WrapPosting.scss';
 import Input from '../Input/Input';
+import Button from '../Button/Button';
 
 const Posting = () => {
     return (
@@ -11,6 +12,9 @@ const Posting = () => {
             </div>
             <div id="input-wrap">
                 <Input />
+            </div>
+            <div id="button-wrap">
+                <Button />
             </div>
         </div>
     );

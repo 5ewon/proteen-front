@@ -1,9 +1,8 @@
 @import '/src/Color/Color.scss';
 
 #posting-wrap {
-    margin:40px auto;
-    width:65vw;
-    height:80vh;
+    margin:10px auto;
+    width:60vw;
 }
 
 #guide-text {
@@ -17,5 +16,9 @@
 }
 
 #input-wrap {
+    margin-top:10px;
+}
+
+#button-wrap {
     margin-top:10px;
 }
