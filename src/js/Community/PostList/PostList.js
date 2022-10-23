@@ -3,11 +3,12 @@ import './PostList.scss';
 import dummy from "js/Community/Dummy/Dummy"
 import profile from 'images/profile.svg';
 
-const PostList = () => {
+const PostList = ({ lang }) => {
+
     return (
         <div id="PostList-wrap">
-            {dummy.contents.map((contents, users) => {
-                if(contents.tag === "C"){
+            {dummy.contents.map((contents) => {
+                if(contents.tag === lang){
                     return (
                         <div className="post">
                             <div key={contents.id} className="background">

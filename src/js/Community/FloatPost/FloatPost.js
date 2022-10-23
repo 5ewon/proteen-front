@@ -21,7 +21,7 @@ const FloatPost = () => {
         <div id="content">
             <div id="waiting">답변을 기다리고 있어요<img src={fire} alt="" /><img src={arrow} alt="" /></div>
             <Slider {...settings}>
-                {dummy.contents.map((contents, users) => {
+                {dummy.contents.map((contents) => {
                     return (
                         <div>
                             <div key={contents.id} className="list">

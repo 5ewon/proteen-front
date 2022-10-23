@@ -1,7 +1,6 @@
 import React from 'react';
 import './WrapCommunity.scss';
 import FloatPost from "js/Community/FloatPost/FloatPost";
-import PostList from "js/Community/PostList/PostList";
 import Category from '../Category/Category';
 import PostingBtn from '../PostingBtn/PostingBtn';
 
@@ -14,9 +13,6 @@ const WrapCommunity = () => {
             <div>
                 <div>
                     <Category/>
-                </div>
-                <div>
-                    <PostList />
                 </div>
             </div>
             <PostingBtn />

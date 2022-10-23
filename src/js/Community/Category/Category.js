@@ -4,14 +4,14 @@ import './Category.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dummy from "js/Community/Dummy/Dummy"
+import PostList from '../PostList/PostList';
 
 const Category = () => {
-    const [color, setColor] = useState("white");
-    const changeColor = (e) => {
-        setColor("red");
-        console.log({color});
+    const [tag, setTag] = useState("C");
+
+    function selectTag(e) {
+        setTag(e.target.outerText)
     }
-    console.log(dummy);
     const settings = {
         dots: false,
         infinite: true,
@@ -23,63 +23,23 @@ const Category = () => {
     return (
         <div id="category">
             <Slider {...settings}>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">C</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">JS</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">C++</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">React</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">Java</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">Spring</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">Rust</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">Python</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
-                        <div className="text">Css</div>
-                    </div>
-                </div>
-                {/* {dummy.options.map((options) => {
+                {dummy.options.map((options) => {
                     return (
                         <div>
-                            <div key={options.id} className="filter" onClick={changeColor} style={{backgroundColor:{color}}}>
+                            <div key={options.id} className="filter" onClick={selectTag} >
                                 <div className="text">
                                     {options.category}
                                 </div> 
                             </div>
                         </div>
                     )
-                })} */}
+                })}
             </Slider>
+            <div>
+                <PostList
+                    lang={tag}
+                />
+            </div>
         </div>
     );
 }
