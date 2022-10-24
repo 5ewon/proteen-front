@@ -13,7 +13,7 @@ const PostList = ({ lang }) => {
                         <div className="post">
                             <div key={contents.id} className="background">
                                 <div className="summary">
-                                    <img id="profile" src={profile} alt="" />
+                                    <img id="profile" src={profile} alt="" style={{width:"45px"}}/>
                                     <div className="">
                                         <div className="gray">{contents.year}년 {contents.month}월 {contents.day}일</div>
                                         <div className="tag">#{contents.tag}</div><br />

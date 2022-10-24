@@ -5,10 +5,10 @@ const Input = () => {
     return (
         <div>
             <div>
-                <input id="input-title" type="text" placeholder='제목_30자 이내 작성'></input>
+                <textarea id="input-title" type="text" maxlength="30" placeholder='제목_30자 이내 작성'></textarea>
             </div>
             <div>
-                <input id="input-detail" type="text" placeholder='5000자 이내 작성'></input>
+                <textarea id="input-detail" type="text" maxlength="5000" placeholder='5000자 이내 작성'></textarea>
             </div>
         </div>
     );

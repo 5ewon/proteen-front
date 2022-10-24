@@ -11,9 +11,7 @@ const WrapCommunity = () => {
                 <FloatPost />
             </div>
             <div>
-                <div>
-                    <Category/>
-                </div>
+               <Category/>
             </div>
             <PostingBtn />
         </div>
