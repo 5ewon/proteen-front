@@ -4,8 +4,11 @@
     margin:4vh 10vw 0px 10.7vw;
     text-align: center;
 }
+.radio-wrap {
+    display:flex;
+}
 .filter {
-    background-color:red;
+    background-color:white;
     margin-right: 10px;
     border:black solid 1px;
     border-radius:15px;

@@ -38,10 +38,12 @@ const Category = () => {
             </Slider> */}
             {
                 dummy.options.map((options) => (
-                    <>
+                    <div className="radio-wrap">
                         <input type="radio" className="radio-hide" id={options.id} value={options.category} name="chk_info" onClick={selectTag} />
-                        <label className="filter" htmlFor={options.id}>{options.category}</label>
-                    </>
+                        <div className="filter">
+                            <label htmlFor={options.id}>{options.category}</label>
+                        </div>
+                    </div>
                 ))
             }
       <div>
