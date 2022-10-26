@@ -22,33 +22,24 @@ const Category = () => {
     arrows: false,
   };
   return (
-    <div id="category">
-      {/* <Slider {...settings}>
-                {dummy.options.map((options) => {
-                    return (
-                        <div>
-                            <div key={options.id} className="filter" onClick={selectTag} >
-                                <input type="radio" className="text">
-                                    {options.category}
-                                </input> 
+    <div id="category-wrap">
+        <div id="category-options">
+          {/* <Slider {...settings}> */}
+                {
+                    dummy.options.map((options) => {
+                        return (
+                            <div id="category-options-radios">
+                                <input type="radio" className="radio-hide" id={options.id} value={options.category} name="chk_info" onClick={selectTag} />
+                                <label htmlFor={options.id}>{options.category}</label>
                             </div>
-                        </div>
-                    )
-                })}
-            </Slider> */}
-            {
-                dummy.options.map((options) => (
-                    <div className="radio-wrap">
-                        <input type="radio" className="radio-hide" id={options.id} value={options.category} name="chk_info" onClick={selectTag} />
-                        <div className="filter">
-                            <label htmlFor={options.id}>{options.category}</label>
-                        </div>
-                    </div>
-                ))
-            }
-      <div>
-        <PostList lang={tag} />
-      </div>
+                        );
+                    })
+                }
+          {/* </Slider> */}
+        </div>
+        <div>
+            <PostList lang={tag} />
+        </div>
     </div>
   );
 };

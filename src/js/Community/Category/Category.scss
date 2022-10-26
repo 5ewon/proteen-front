@@ -1,26 +1,30 @@
 @import '/src/Color/Color.scss';
 
-#category {
-    margin:4vh 10vw 0px 10.7vw;
-    text-align: center;
+#category-wrap {
+    width:78vw;
+    margin:10px auto;
 }
-.radio-wrap {
-    display:flex;
-}
-.filter {
-    background-color:white;
-    margin-right: 10px;
-    border:black solid 1px;
-    border-radius:15px;
-    width:200px;
-    padding:10px 10px 10px 10px;
-    font-size:24px;
-    cursor:pointer;
-}
-.text {
-    // margin:6px;
-    color:#888888;
-}
-.radio-hide {
-    display:none;
+
+#category-options {
+    display: flex;
+    justify-content: space-between;
+
+    #category-options-radios {
+        display: flex;
+        > input {
+            display: none;
+
+            &:checked+label {
+                background-color: $main-blue;
+                color: white;
+            }
+        }
+        > label {
+            font-size: 24px;
+            border: none;
+            padding: 10px 42px;
+            border-radius: 100px;
+            background-color: $main-light-gray;
+        }
+    }
 }
